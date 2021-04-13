@@ -1,0 +1,4 @@
+[submodule "packages/awesome-nest-boilerplate"]
+	path = packages/awesome-nest-boilerplate
+	url = git@github.com:NarHakobyan/awesome-nest-boilerplate.git
+	branch = master
