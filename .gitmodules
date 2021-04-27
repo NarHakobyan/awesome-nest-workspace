@@ -5,3 +5,4 @@
 [submodule "packages/awesome-nest-microservice"]
 	path = packages/awesome-nest-microservice
 	url = git@github.com:NarHakobyan/awesome-nest-microservice.git
+    branch = master

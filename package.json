@@ -7,22 +7,6 @@
     ],
     "main": "index.ts",
     "nohoist": [
-      "**/eslint",
-      "**/tslint",
-      "**/@eslint/eslintrc",
-      "**/@typescript-eslint/eslint-plugin",
-      "**/@typescript-eslint/eslint-plugin-tslint",
-      "**/@typescript-eslint/parser",
-      "**/eslint-config-prettier",
-      "**/eslint-plugin-import",
-      "**/eslint-plugin-import-helpers",
-      "**/eslint-plugin-prettier",
-      "**/eslint-module-utils",
-      "**/eslint-plugin-simple-import-sort",
-      "**/tslint-config-prettier",
-      "**/tslint-consistent-codestyle",
-      "**/tslint-eslint-rules",
-      "**/tslint-plugin-prettier",
       "**/husky"
     ]
   }
