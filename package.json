@@ -1,6 +1,10 @@
 {
   "name": "@monorepo/root",
   "private": true,
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint --fix . --ext .ts"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
