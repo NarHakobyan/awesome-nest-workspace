@@ -2,8 +2,11 @@
   "name": "@monorepo/root",
   "private": true,
   "scripts": {
+    "submodule:update": "git submodule update --init --recursive",
     "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint --fix . --ext .ts"
+    "lint:fix": "eslint --fix . --ext .ts",
+    "boilerplate": "yarn workspace awesome-nest-boilerplate",
+    "microservice": "yarn workspace awesome-nest-microservice"
   },
   "workspaces": {
     "packages": [
@@ -11,7 +14,8 @@
     ],
     "main": "index.ts",
     "nohoist": [
-      "**/husky"
+      "**/husky",
+      "**/typeorm"
     ]
   }
 }
