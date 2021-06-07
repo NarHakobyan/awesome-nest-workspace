@@ -6,7 +6,8 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint --fix . --ext .ts",
     "boilerplate": "yarn workspace awesome-nest-boilerplate",
-    "microservice": "yarn workspace awesome-nest-microservice"
+    "microservice": "yarn workspace awesome-nest-microservice",
+    "start:microservice": "yarn microservice start:dev"
   },
   "workspaces": {
     "packages": [
